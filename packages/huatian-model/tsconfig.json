@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"]
+  },
+  "include": ["src/**/*.ts"]
+}
