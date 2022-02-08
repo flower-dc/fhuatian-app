@@ -1,4 +1,3 @@
-import { ChatSission } from "./ChatSession";
 import { UserChat } from "./UserChat";
 
 export class User {

@@ -20,12 +20,12 @@ export class UserChat {
 
   public send(msg: Message) {
     this.msgs.push(msg);
-    msg.status = MessageStates.SEDING;
+    msg.status = MessageStates.SENT;
     msg.type = MessageType.SEND;
   }
   public receive(msg: Message) {
     this.msgs.push(msg);
-    msg.status = MessageStates.RECEIVED;
+    msg.status = MessageStates.RECEIVING;
     msg.type = MessageType.RECEIVED;
   }
 
